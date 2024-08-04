@@ -1,0 +1,27 @@
+.navbar-container {
+  margin: 60px 0px;
+  padding: 6px 140px;
+  // border: 1px solid red;
+  &__logo-container {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content:space-between;
+    &__logo {
+      img{
+      width: 60px ;
+      }
+
+    }
+    &__social-app-icons{
+      margin: 10px;
+      color: white;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      cursor: pointer;  
+    }
+  }
+}
