@@ -1,22 +1,18 @@
-import "./Navbar.scss";
 import logo from "../../assets/Khushal_logo.png";
 import { GithubFilled, LinkedinFilled, XOutlined } from "@ant-design/icons";
 
 const Navbar = () => {
-  const baseClass = "navbar-container";
   return (
-    <div className={baseClass}>
-      <div className={`${baseClass}__logo-container`}>
-        <span className={`${baseClass}__logo-container__logo`}>
-          <img src={logo} alt="logo"/>
-        </span>
-        <span className={`${baseClass}__logo-container__social-app-icons`}>
-        <LinkedinFilled/>
-        <GithubFilled/>
-        <XOutlined />
-        </span>
+    <nav className="mb-20 flex items-center justify-between py-6">
+      <div className="w-15 flex flex-shrink-0 items-center">
+        <img className="max-w-16" src={logo} alt="logo" />
       </div>
-    </div>
+      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <LinkedinFilled />
+        <GithubFilled />
+        <XOutlined />
+      </div>
+    </nav>
   );
 };
 
