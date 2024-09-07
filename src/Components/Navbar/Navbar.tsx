@@ -8,9 +8,15 @@ const Navbar = () => {
         <img className="max-w-16" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <LinkedinFilled />
-        <GithubFilled />
-        <XOutlined />
+        <a
+          href="http://www.linkedin.com/in/khushal-panwar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedinFilled className="w-6 h-6 cursor-pointer" />
+        </a>
+        <GithubFilled className="cursor-pointer" />
+        <XOutlined className="cursor-pointer" />
       </div>
     </nav>
   );
