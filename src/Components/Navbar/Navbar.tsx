@@ -13,10 +13,22 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <LinkedinFilled className="w-6 h-6 cursor-pointer" />
+          <LinkedinFilled className="cursor-pointer" />
         </a>
-        <GithubFilled className="cursor-pointer" />
-        <XOutlined className="cursor-pointer" />
+        <a
+          href="https://github.com/KhushalPanwarDev/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GithubFilled className="cursor-pointer" />
+        </a>
+        <a
+          href="https://x.com/Khushalpanwar86"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <XOutlined className="cursor-pointer" />
+        </a>
       </div>
     </nav>
   );

@@ -73,7 +73,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "plot no.38 ganesh nagar 2 shyam nagar benar road jaipur rajasthan",
+  address: "Plot no.38 Ganesh Nagar 2 Shyam Nagar Benar Road Jaipur Rajasthan",
   phoneNo: "+91 8058578020",
   email: "khushalPanwar0669@gmail.com",
 };
