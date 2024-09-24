@@ -1,7 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import PortfolioImage from "../assets/projects/PortfolioImage.png";
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, typescript,redux. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -19,7 +16,6 @@ export const EXPERIENCES = [
       "Javascript",
       "React",
       "Typescript",
-      "Next.js",
       "Scss",
       "AntD",
     ],
@@ -28,52 +24,16 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Virtual Station",
-    image: project1,
-    description:
-      "A fully functional virtual station app with features like Workspace and room creation, meeting, whiteboard, screenshare, chat , time tracking and many more.",
-    technologies: [
-      "React",
-      "Typescript",
-      "Scss",
-      "AntD",
-      "Redux",
-      "Mysql",
-      "MongoDb",
-    ],
-  },
-  {
-    title: "PMT(Files and Password Management App)",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as Workspace creation and manage files and passwords.",
-    technologies: ["React", "Scss", "Typescript", "Mysql"],
-  },
-  {
     title: "Portfolio Website",
-    image: project3,
+    image: PortfolioImage,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind css", "Framer motion"],
   },
-  {
-    title: "Front Desk Receptionist AI",
-    image: project4,
-    description:
-      "An application to talk to client as receptionist to book appointment, solve client query and many more",
-    technologies: [
-      "React",
-      "Typescript",
-      "Scss",
-      "Redux",
-      "Antd",
-      "Tailwind css",
-    ],
-  },
 ];
 
 export const CONTACT = {
-  address: "Plot no.38 Ganesh Nagar 2 Shyam Nagar Benar Road Jaipur Rajasthan",
+  address: "Ganesh Nagar 2 Shyam Nagar Benar Road Jaipur Rajasthan",
   phoneNo: "+91 8058578020",
   email: "khushalPanwar0669@gmail.com",
 };

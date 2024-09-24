@@ -11,7 +11,6 @@ import {
   TbBrandFramerMotion,
   TbBrandHtml5,
   TbBrandJavascript,
-  TbBrandNextjs,
   TbBrandTypescript,
 } from "react-icons/tb";
 import { motion } from "framer-motion";
@@ -54,16 +53,6 @@ const Technologies = () => {
         >
           <Tooltip title="React" trigger="hover">
             <RiReactjsLine className="text-6xl text-cyan-400" />
-          </Tooltip>
-        </motion.div>
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <Tooltip title="Next js" trigger="hover">
-            <TbBrandNextjs className="text-6xl text-pink-600" />
           </Tooltip>
         </motion.div>
         <motion.div
