@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="w-15 flex flex-shrink-0 items-center">
         <img className="max-w-16" src={logo} alt="logo" />
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="my-8 flex items-center justify-center gap-4 text-2xl">
         <a
           href="http://www.linkedin.com/in/khushal-panwar"
           target="_blank"
