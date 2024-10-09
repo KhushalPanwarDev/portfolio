@@ -25,17 +25,43 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Client based projects",
+    title: "Product based project",
     image: ClientsProjectImage,
-    description:
-      "In my client-based projects, I leveraged React, TypeScript, and Ant Design to create robust and user-friendly web applications. A standout project was a collaborative workspace platform that showcased my ability to implement complex features. This application included a comprehensive user authentication system with signup and login functionalities, allowing users to create and manage workspaces and rooms. The platform's centerpiece was an interactive whiteboard, enabling real-time collaboration among team members. I also integrated a chat interface, facilitating instant communication within the workspace. Throughout the project, I focused on developing a cohesive and intuitive user interface to ensure a seamless user experience. In addition to this major project, I worked on several other client applications, where I designed and implemented user interfaces, developed custom features to meet specific client needs, and maintained a strong emphasis on creating responsive and accessible designs. These projects further honed my skills in React, TypeScript, Redux, scss, Tailwind css and Ant Design, allowing me to deliver high-quality, tailored solutions for each client.",
+    description: [
+      "Developed a robust and user-friendly web application using React, TypeScript, and Ant Design",
+      "Implemented comprehensive user authentication system with signup and login functionalities",
+      "Created features for managing workspaces and rooms",
+      "Designed and built an interactive whiteboard feature enabling real-time collaboration among team members",
+      "Integrated a chat interface for instant communication within workspaces",
+      "Focused on developing a cohesive and intuitive user interface for seamless user experience",
+      "Utilized Redux for efficient state management in large-scale applications"
+    ],
+    technologies: ["React", "Typescript", "Redux", "Tailwind css", "Scss", "Antd library"],
+  },
+  {
+    title: "Client based project",
+    image: ClientsProjectImage,
+    description: [
+      "Developed a collaborative workspace platform using React, TypeScript, and Ant Design, showcasing proficiency in creating complex, user-friendly web applications",
+      "Customized and implemented unique features to meet specific client requirements in various web applications",
+      "Demonstrated strong problem-solving skills by delivering tailored solutions for diverse client needs",
+      "Employed SCSS and Tailwind CSS to create responsive and accessible designs across multiple client projects",
+      "Maintained a focus on code quality, performance optimization, and best practices in React and TypeScript development",
+      "Created an intuitive and cohesive user interface, ensuring a seamless user experience across the platform"
+    ],
     technologies: ["React", "Typescript", "Redux", "Tailwind css", "Scss", "Antd library"],
   },
   {
     title: "Portfolio Website",
     image: PortfolioImage,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+    [
+      "Developed a dynamic, interactive personal portfolio website showcasing professional projects and skills",
+      "Utilized React for building a modular, component-based user interface",
+      "Implemented responsive design ensuring optimal viewing across all device sizes",
+      "Created an interactive project showcase with filterable categories",
+      "Integrated smooth animations and transitions using Framer Motion",
+    ],
     technologies: ["React", "Tailwind css", "Framer motion"],
   },
 ];
